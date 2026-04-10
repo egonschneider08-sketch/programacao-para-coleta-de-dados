@@ -16,6 +16,6 @@ for i in range(20):
     print(f"Motor {i+1}: {temperaturas[i]}°C", end=" ")
 
     if temperaturas[i] > 80:
-        print("- ALERTA! Superaquecimento!")
+        print("- ALERTA! Super aquecimento!")
     else:
         print("- Temperatura normal")

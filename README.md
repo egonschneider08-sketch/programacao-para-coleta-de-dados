@@ -31,7 +31,7 @@ D --> E[Dashboard]
 
 ## 📊 Dashboard (Exemplo)
 
-![Dashboard]([https://via.placeholder.com/900x400?text=Industrial+Dashboard](https://www.intergate.net.br/blog/sematex-e-industria-4-0-lancamento-na-febratex-2018/))
+https://www.intergate.net.br/blog/sematex-e-industria-4-0-lancamento-na-febratex-2018/
 
 ---
 

@@ -569,9 +569,9 @@ print()
 # ==============================================================================
 # QUESTÃO 17 – Dashboard Industrial
 # ==============================================================================
-print("=" * 60)
+print("=" * 70)
 print("QUESTÃO 17 – Dashboard Industrial")
-print("=" * 60)
+print("=" * 70)
 
 def gerar_dados_dashboard(n=20):
     """Gera dados simulados para o dashboard."""
@@ -584,18 +584,18 @@ def gerar_dados_dashboard(n=20):
 
 def exibir_dashboard(dados):
     """Exibe o dashboard com métricas calculadas."""
-    print(f"\n  {'═'*60}")
+    print(f"\n  {'═'*70}")
     print(f"  {'WEG INDUSTRIAL DASHBOARD':^60}")
-    print(f"  {'═'*60}")
+    print(f"  {'═'*70}")
     print(f"  {'Variável':<20} {'Média':>10} {'Máx':>10} {'Mín':>10} {'DP':>8}")
-    print(f"  {'─'*60}")
+    print(f"  {'─'*70}")
     for variavel, valores in dados.items():
         media  = statistics.mean(valores)
         maximo = max(valores)
         minimo = min(valores)
         dp     = statistics.stdev(valores)
         print(f"  {variavel:<20} {media:>10.2f} {maximo:>10.2f} {minimo:>10.2f} {dp:>8.2f}")
-    print(f"  {'═'*60}\n")
+    print(f"  {'═'*70}\n")
 
 dados_dashboard = gerar_dados_dashboard()
 exibir_dashboard(dados_dashboard)

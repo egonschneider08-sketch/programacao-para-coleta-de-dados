@@ -1,0 +1,76 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BASE */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #0b1220;
+  color: #e2e8f0;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #111827;
+  border-bottom: 1px solid #1f2937;
+}
+
+header h1 {
+  font-size: 22px;
+}
+
+/* STATUS */
+.status {
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-weight: bold;
+}
+
+.status.normal {
+  background: rgba(34,197,94,0.2);
+  color: #22c55e;
+}
+
+.status.alerta {
+  background: rgba(239,68,68,0.2);
+  color: #ef4444;
+}
+
+/* DASHBOARD GRID */
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  padding: 30px;
+}
+
+/* CARDS */
+.card {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #94a3b8;
+}
+
+canvas {
+  width: 100%;
+}

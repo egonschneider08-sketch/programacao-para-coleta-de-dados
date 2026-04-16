@@ -1,6 +1,6 @@
 # 🏭 Industrial Data Automation Lab
 
-> Repositório profissional de estudos em **Automação Industrial, IoT e Coleta de Dados em Tempo Real**.
+> Repositório de estudos em **Automação Industrial, IoT e Coleta de Dados em Tempo Real**.
 
 ---
 

@@ -31,7 +31,8 @@ D --> E[Dashboard]
 
 ## 📊 Dashboard (Exemplo)
 
-<img width="1021" height="575" alt="image" src="https://github.com/user-attachments/assets/28563ebd-da56-4ed3-83c2-788582e93052" />
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/256c56ae-d0b1-4e18-9908-bd38a4cc9f67" />
+
 
 
 ---
@@ -40,15 +41,8 @@ D --> E[Dashboard]
 
 ### Temperatura
 
-![Temp](https://via.placeholder.com/400x200?text=Temperatura)
+<img width="1860" height="1032" alt="image" src="https://github.com/user-attachments/assets/458abcf0-7952-45bd-9d11-2ea067e33336" />
 
-### Pressão
-
-![Press](https://via.placeholder.com/400x200?text=Pressao)
-
-### Vibração
-
-![Vib](https://via.placeholder.com/400x200?text=Vibracao)
 
 ---
 
@@ -101,12 +95,6 @@ print(valor)
 * [ ] Integração com banco de dados
 * [ ] API REST
 * [ ] Deploy em nuvem
-
----
-
-## 📸 Demonstração
-
-![Demo](https://via.placeholder.com/900x400?text=Demo+Sistema)
 
 ---
 
